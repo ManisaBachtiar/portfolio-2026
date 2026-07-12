@@ -17,10 +17,12 @@ export function useDragOffsets(count: number) {
   let activeIndex = -1
 
   function onPointerDown(index: number, event: PointerEvent) {
+    const item = state[index]
+    if (!item) return
     activeIndex = index
-    state[index].dragging = true
-    startX = event.clientX - state[index].dx
-    startY = event.clientY - state[index].dy
+    item.dragging = true
+    startX = event.clientX - item.dx
+    startY = event.clientY - item.dy
     ;(event.currentTarget as HTMLElement).setPointerCapture(event.pointerId)
   }
 

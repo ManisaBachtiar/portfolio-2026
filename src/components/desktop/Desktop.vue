@@ -45,9 +45,9 @@ function closePanel(key: string) {
 }
 
 function onKeydown(event: KeyboardEvent) {
-  if (event.key === 'Escape' && openPanels.value.length) {
-    closePanel(openPanels.value[openPanels.value.length - 1])
-  }
+  if (event.key !== 'Escape') return
+  const lastKey = openPanels.value[openPanels.value.length - 1]
+  if (lastKey) closePanel(lastKey)
 }
 
 onMounted(() => {

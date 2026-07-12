@@ -37,8 +37,8 @@ export const skillGroups: SkillGroup[] = [
 
 export interface ProjectItem {
   title: string
-  description: string
-  tags: string[]
+  description?: string
+  tags?: string[]
   link?: string
 }
 
