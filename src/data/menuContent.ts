@@ -55,7 +55,7 @@ export interface HobbyItem {
 }
 
 export const hobbies: HobbyItem[] = [
-  { title: 'Content creation', description: 'Capturing me and a moment, sometimes my ideas too.' },
+  { title: 'Content creation', description: 'Capturing myself, a moment, and sometimes my ideas too.' },
   { title: 'Makeup', description: 'Feel so happy to see my makeup looks come to life.' },
   { title: 'Code', description: 'Writing clean, efficient code.' },
   { title: 'Music', description: 'Playing tate mcrae songs and rap are my fav.' },
