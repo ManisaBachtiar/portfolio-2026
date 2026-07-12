@@ -14,7 +14,7 @@ export const aboutMe: AboutMe = {
   bio: [
     "Hi! Nice to know you stopped by my profile", 
     "I'm a graphic designer who loves turning ideas into visuals that are both meaningful and aesthetically pleasing. Beyond design, I'm currently learning iOS development because I'm passionate about creating beautiful, functional digital experiences.",
-    "Whether you're here to hire me, collaborate, or just say hi, I'd love to connect, become friends"
+    "Whether you're here to hire me, collaborate, or just say hi, I'd love to connect,  and become friends"
   ],
 }
 
