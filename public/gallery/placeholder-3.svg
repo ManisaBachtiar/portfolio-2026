@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#b7f0e6"/>
+      <stop offset="1" stop-color="#22988a"/>
+    </linearGradient>
+    <linearGradient id="s" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#g)"/>
+  <rect width="800" height="420" fill="url(#s)"/>
+  <g fill="#ffffff" fill-opacity="0.88">
+    <rect x="300" y="420" width="200" height="150" rx="18"/>
+    <circle cx="400" cy="500" r="46" fill="#22988a"/>
+    <circle cx="400" cy="500" r="30" fill="#ffffff" fill-opacity="0.9"/>
+    <rect x="360" y="395" width="42" height="26" rx="6"/>
+  </g>
+  <text x="400" y="640" text-anchor="middle" font-family="-apple-system,Helvetica,Arial,sans-serif" font-size="30" font-weight="600" fill="#ffffff" fill-opacity="0.92">Travel</text>
+</svg>
